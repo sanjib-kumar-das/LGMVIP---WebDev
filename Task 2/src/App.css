@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 body {
-  background-image: linear-gradient(to left, #f7971e, #ffd200);
+  background-image: linear-gradient(to left, #b6f71e, #fffb00);
   /* background-color: #070617; */
 }
 
@@ -12,9 +12,9 @@ body {
   margin-top: 20%;
   width: 60px;
   height: 60px;
-  -webkit-animation: spin 2s linear infinite;
+  -webkit-animation: spin 3s linear infinite;
   /* Safari */
-  animation: spin 2s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
@@ -72,14 +72,15 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   transition: 0.5s;
   border-radius: 5px;
 }
 
 .topnav .btn:hover {
-  color: rgba(150, 150, 150, 0.74);
-  box-shadow: 0px 0px 0px 2.5px rgba(255, 174, 0, 0.979);
+  color: rgb(255, 238, 0);
+  box-shadow: 0px 0px 0px 2px rgba(1, 202, 61, 0.979);
+  background-color: #d6c8c86e;
 }
 
 /* When the screen is less than 600 pixels wide */
@@ -101,7 +102,7 @@ body {
   width: 50%;
   border-radius: 10px;
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   border: 1px solid white;
   margin: 20% auto 0;

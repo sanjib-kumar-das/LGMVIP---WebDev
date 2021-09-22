@@ -30,7 +30,7 @@ function App() {
           <div class="topnav" id="myTopnav">
             <a
               rel="noreferrer"
-              href="https://srblgmvipt1.netlify.app"
+              href="https://lgmvip-sept-task2.netlify.app"
               target="_blank"
               class="active"
             >
@@ -51,7 +51,7 @@ function App() {
                 )
               ) : (
                 <div className="instruction">
-                  <p>To get the users of Nature Restored, click on "Get Users" button</p>
+                  <p>Click on "Get Users" button !!</p>
                 </div>
               )}
             </div>
